@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-css-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "TAILWIND_MODE=watch start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdnrn/tailwind-css-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdnrn/tailwind-css-practice/issues"
+  },
+  "homepage": "https://github.com/rdnrn/tailwind-css-practice#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.0.2"
+  }
+}

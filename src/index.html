@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <form action=""
+    class="max-w-sm mx-auto rounded-lg bg-violet-100 text-violet-900 p-8 flex flex-col items-start space-y-3">
+    <h1 class="font-bold text-3xl text-violet-900">Registration form</h1>
+    <div class="font-semibold flex flex-col space-y-4">
+      <label class="space-y-2" for="name">
+        <h2>Name</h2>
+        <input class="p-2" type="text" placeholder="John Doe">
+      </label>
+      <label class="space-y-2" for="password" class="">
+        <h2>Password</h2>
+        <input class="p-2" type="text" placeholder="Password">
+      </label>
+      <label class="space-y-2" for="repeat-password">
+        <h2>Repeat Password</h2>
+        <input class="p-2" type="text" placeholder="Repeat Password">
+      </label>
+    </div>
+    <h2>Select your gender:</h2>
+    <label for="female">
+      <input type="radio" name="female" id="female">
+      Female
+    </label>
+    <label for="male">
+      <input type="radio" name="male" id="male">
+      Male
+    </label>
+    <label for="other">
+      <input type="radio" name="other" id="other">
+      Other
+    </label>
+    <button type="button">Register</button>
+  </form>
+</body>
+
+</html>
